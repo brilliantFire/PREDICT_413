@@ -23,8 +23,9 @@ plot.ts(daily$mss)
 # real dates:
 daily$date <- as.Date(daily$date, origin = "1899-12-30")
 
-# NOTE: "origin = " statement is needed to convert Windows Excel text
-# dates to date format
+# NOTE: "origin = " statement is needed to convert Windows Excel numeric
+# dates to date format. More info on date formats in R can be found here:
+# https://www.r-bloggers.com/date-formats-in-r/
 
 # Libraries for plotting
 library(ggplot2)
