@@ -94,3 +94,4 @@ ggplot(data=daily_Aug2016, aes(x=date, y=mss, group=1)) +
         axis.title = element_text(size = 22)) +
   scale_y_continuous(limits = c(0,300), breaks=seq(0,300,100)) + 
   scale_x_date(breaks = date_breaks("2 days"), labels = date_format("%Y-%m-%d"))
+
