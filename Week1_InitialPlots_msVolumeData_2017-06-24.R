@@ -53,7 +53,7 @@ ggplot(data=daily, aes(x=date, y=mss, group=1)) +
 # Now, just the month of August 2016
 daily_Aug2016 <- daily[150:172,]
 
-# PLOT 03: Same plot as before except just three months:
+# PLOT 03: Same plot as before except just August 2016:
 ggplot(data=daily_Aug2016, aes(x=date, y=mss, group=1)) +
   geom_line(color = "forestgreen", size = 1) +
   # Plot and title labels
