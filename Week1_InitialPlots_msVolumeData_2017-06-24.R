@@ -19,12 +19,13 @@ tsDaily <- ts(daily$mss)
 # PLOT 01: Basic time series plot
 plot.ts(daily$mss)
 
-# But that's not as fun as using ggplot2 so let's convert the dates to
-# real dates:
+# But that's not as fun as using ggplot2 so let's begin by converting 
+# the numeric dates from Excel to real dates:
 daily$date <- as.Date(daily$date, origin = "1899-12-30")
 
-# NOTE: "origin = " statement is needed to convert Windows Excel numeric
-# dates to date format. More info on date formats in R can be found here:
+# NOTE: The 'origin = "1899-12-30"' statement is needed to convert 
+# Windows Excel numeric dates to date format. More info on date formats 
+# in R can be found here:
 # https://www.r-bloggers.com/date-formats-in-r/
 
 # Libraries for plotting
