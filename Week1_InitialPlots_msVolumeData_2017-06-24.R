@@ -7,8 +7,8 @@
 ### This program produces two different kinds of plots of time series
 ### data consisting of the daily number of scientific manuscripts 
 ### entering an editorial workflow. The first is a basic time series
-### plot using plot.ts(). The second uses ggplot2. Two additional
-### ggplot2 plots show 6 month and 1 month subsets.
+### plot using plot.ts(). The second uses ggplot2. An additional
+### ggplot2 plot shows a 1 month subset.
 
 # Read in from .csv
 daily <- read.csv("dailyVolumeCleaned.csv", header = TRUE)
