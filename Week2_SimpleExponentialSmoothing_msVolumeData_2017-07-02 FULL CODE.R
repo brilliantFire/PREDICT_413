@@ -80,3 +80,4 @@ sesExperiment(tsDaily3mos, alphas = c(0.5, 0.3, 0.1),
 # Experiment #3: 3 months of data (Oct-Dec 2016), alpha = 0.2, 0.3, 0.4
 sesExperiment(tsDaily3mos, alphas = c(0.4, 0.3, 0.2), 
               colors = c("green4", "deepskyblue", "firebrick"))
+
